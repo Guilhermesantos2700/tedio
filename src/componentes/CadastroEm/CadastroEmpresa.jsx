@@ -12,20 +12,27 @@ const CadastroEmpresa = () => {
         <h2>Cadastro Empresa</h2>
       </div>
       <div className='barrinhas'>
-        <input type="email" placeholder="Email"/>
-        <input id="senha" type="password" placeholder="Senha"/>
-        <input type="nome da empresa" placeholder="Nome Da Empresa" />
+        <label>Nome </label>
+        <input  type="nome da empresa" placeholder="Nome Da Empresa" />
+        <label>E-mail </label>
+        <input type="email" placeholder="E-mail" />
+        <label>Senha </label>
+        <input id="senha" type="password" placeholder="Senha" />
+        <label>CNPJ </label>
         <input type="cnpj" placeholder="CNPJ" />
+        <label>Telefone </label>
         <input type="telefone" placeholder="Telefone" />
-        <input type="endereco" placeholder="Endereco" />
-        <input type="numero" placeholder="Contato"/>
+        <label>Endereço </label>
+        <input type="endereco" placeholder="Endereço" />
+        <label>Numero </label>
+        <input type="numero" placeholder="Contato" />
+        <label>CEP </label>
         <input type="cep" placeholder="CEP" />
-        
+
       </div>
-      <div id='botao'>
-        <button>
-          <h3>cadastrar</h3>
-        </button>
+
+      <div id='trazB'>
+        <button >Cadastrar</button>
       </div>
 
 

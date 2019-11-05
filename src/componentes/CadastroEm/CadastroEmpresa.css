@@ -1,6 +1,6 @@
 body {
 
-    background: coral;
+    background: rgb(97, 90, 87);
 }
 
 .CadastroEmpresa h1{
@@ -30,13 +30,27 @@ input{
     margin-bottom: 12px;
     border-radius: 25px;
     text-align: center;
-    background-color: rgb(207, 153, 133);
+    background-color: rgb(97, 90, 87);
 }
 
 
-#botao{
+button{
     display: flex;
-    justify-content: space-around;  
-    margin-top: 15px;
-    margin-left: 30px;
+    flex-direction: center;  
+    border-radius: 25px;
+    width: 100px;
+    height:30px; 
+    align-items: center;
+    justify-content: center;
+     
 }
+
+#trazB{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+
+    
+}
+
+
