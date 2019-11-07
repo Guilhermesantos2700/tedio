@@ -7,6 +7,7 @@ import CadastroPessoas from './componentes/CadastroPessoas/Cadastro.jsx';
 import home from './componentes/Home/Home';
 
 
+
 const App = () => {
   return (
     <BrowserRouter>

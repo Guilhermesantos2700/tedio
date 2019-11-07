@@ -6,6 +6,7 @@ import './Navbar.scss';
 const Navbar = () => {
   const [menuAtivo, setMenuAtivo] = useState(false);
 
+
   const abrirMenu = () => {
     setMenuAtivo(!menuAtivo);
   };
@@ -17,6 +18,7 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <nav>
+        <h1>CAIEIRAS JOB</h1>
         <div onClick={abrirMenu} id="menu-hamburguer">
           <span></span>
           <span></span>
@@ -24,8 +26,8 @@ const Navbar = () => {
         </div>
       </nav>
       <section className={`menu ${menuAtivo ? "ativo" : ""}`}>
-        <Link onClick={fecharMenu} to="/">HOME</Link>
-        <Link onClick={fecharMenu} to="/pagamento">EMPREGOS</Link>
+        <Link onClick={fecharMenu} to="/"></Link>
+        <Link onClick={fecharMenu} to="/pagamento">MERCADO</Link>
         <Link onClick={fecharMenu} to="/CadastroEmpresa">CADASTRA EMPRESA</Link>
         <Link onClick={fecharMenu} to="/cadastro">CADASTRO PESSOA</Link>
       </section>

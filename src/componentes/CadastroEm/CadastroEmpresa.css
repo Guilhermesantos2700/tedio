@@ -27,10 +27,11 @@ body {
 
 }
 input{
-    margin-bottom: 12px;
-    border-radius: 25px;
+    margin-bottom: 10px;
+    background: none;
     text-align: center;
-    background-color: rgb(97, 90, 87);
+    border:none;
+    border-bottom: 2px solid black;
 }
 
 
