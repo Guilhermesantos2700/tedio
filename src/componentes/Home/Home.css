@@ -1,31 +1,39 @@
 body{
-    background-color: #AEC8FF;  
+    background-color:rgb(68, 60, 60);  
 }
-h1{
-    font-size: 20px;
-    max-width: 350px;
-}
+
 
 img{
     max-width: 350px;
-    border-radius: 100%;
+    border-radius: 0;
     
 }
+
 .relacao{
+    display: flex;
     max-width: 350px;
     border-radius: 45px;
+    
+     
+}
+
+h1{
+    font-size: 29px;
+    color: white;
 }
 .relacao img{
-    width: 300px;
+    width: 90px;
     border-radius: 45px;
     margin-left: 25px;
 
 }
 
+
+
 .bolinhas{
     max-width: 100%;
     margin-top: 3px;
-    background-color: rgb(97, 90, 87);;
+    background-color: rgb(114, 107, 105);;
     display: flex;
     align-items: center;
     justify-content: center;    

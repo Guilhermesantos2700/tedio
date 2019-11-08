@@ -1,5 +1,7 @@
 import React from 'react';
 import './Cadastro.css';
+import './perfPessoas';
+import { Link } from 'react-router-dom';
 
 
 
@@ -24,10 +26,11 @@ const cadastro = () => {
         <input type="date" name="data" id=""/>
 
 
-         <div id="botao">
-        <input type="button" value="PROXIMO"/>
-        
-        </div>
+        <div id='Botao'>
+        <Link to ='PerfilPessoa'>
+          <button>Cadastrar</button>
+        </Link>
+      </div>
 
 
         

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import './Navbar.scss';
+import job from './ima/gui-5.png'
+
 
 
 const Navbar = () => {
@@ -18,15 +20,19 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <nav>
-        <h1>CAIEIRAS JOB</h1>
+        <div className="logo">
+        <img className="logoimg" src={job} alt=""/>
+         </div>
         <div onClick={abrirMenu} id="menu-hamburguer">
           <span></span>
           <span></span>
           <span></span>
         </div>
       </nav>
+   
+    
       <section className={`menu ${menuAtivo ? "ativo" : ""}`}>
-        <Link onClick={fecharMenu} to="/"></Link>
+        <Link onClick={fecharMenu} to="/">HOME</Link>
         <Link onClick={fecharMenu} to="/pagamento">MERCADO</Link>
         <Link onClick={fecharMenu} to="/CadastroEmpresa">CADASTRA EMPRESA</Link>
         <Link onClick={fecharMenu} to="/cadastro">CADASTRO PESSOA</Link>

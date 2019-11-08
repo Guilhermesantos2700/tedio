@@ -1,0 +1,13 @@
+.Perf{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+::-webkit-input-placeholder {
+    color: white;
+ }
+
+input{
+    color: white;
+}

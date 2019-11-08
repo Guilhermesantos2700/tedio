@@ -5,6 +5,8 @@ import Navbar from './componentes/Navbar/Navbar';
 import CadastroEM from './componentes/CadastroEm/CadastroEmpresa.jsx';
 import CadastroPessoas from './componentes/CadastroPessoas/Cadastro.jsx';
 import home from './componentes/Home/Home';
+import Perf from './componentes/CadastroEm/Perf';
+import PerfUsuario from './componentes/CadastroPessoas/perfPessoas'
 
 
 
@@ -15,6 +17,8 @@ const App = () => {
       <Route path='/' exact component={home} />
       <Route path='/cadastro' exact component={CadastroPessoas} />
       <Route path='/CadastroEmpresa' exact component={CadastroEM} />
+      <Route path='/PerfilEmpresa' exact component={Perf} />
+      <Route path='/PerfilPessoa' exact component={PerfUsuario} />
       
 
     </BrowserRouter>
