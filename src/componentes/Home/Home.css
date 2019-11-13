@@ -28,7 +28,7 @@ h1{
 
 .Home img{
     height: 100%;
-    width: 100%;
+   max-width: 350px;
 }
 
 .relacao img{
