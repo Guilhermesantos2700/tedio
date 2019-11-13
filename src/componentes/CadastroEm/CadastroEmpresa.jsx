@@ -9,7 +9,6 @@ const CadastroEmpresa = () => {
   return (
     <div className="CadastroEmpresa">
       <div>
-        <h1>Caieiras Job</h1>
         <h2>Cadastro Empresa</h2>
       </div>
       <div className='barrinhas'>

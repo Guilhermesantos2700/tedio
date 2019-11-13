@@ -19,6 +19,8 @@ const Navbar = () => {
 
   return (
     <div className="Navbar">
+      <div className="nav2">
+
       <nav>
         <div className="logo">
         <img className="logoimg" src={job} alt=""/>
@@ -29,11 +31,12 @@ const Navbar = () => {
           <span></span>
         </div>
       </nav>
+      </div>
    
     
       <section className={`menu ${menuAtivo ? "ativo" : ""}`}>
+        <Link onClick={fecharMenu} to="/mercado"></Link>
         <Link onClick={fecharMenu} to="/">HOME</Link>
-        <Link onClick={fecharMenu} to="/pagamento">MERCADO</Link>
         <Link onClick={fecharMenu} to="/CadastroEmpresa">CADASTRA EMPRESA</Link>
         <Link onClick={fecharMenu} to="/cadastro">CADASTRO PESSOA</Link>
       </section>

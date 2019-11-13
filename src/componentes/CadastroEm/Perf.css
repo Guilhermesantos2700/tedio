@@ -1,13 +1,26 @@
 .Perf{
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center; 
+    margin-top: 25px;
+  }
+  
+  .inform{
+    margin-top: -80px;
+  margin-top: 30px;
+    color: white;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: black solid 3px;
 }
-
 ::-webkit-input-placeholder {
     color: white;
  }
 
 input{
     color: white;
+    margin-top: 15px;
 }

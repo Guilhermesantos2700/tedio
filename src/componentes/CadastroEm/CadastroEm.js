@@ -1,5 +1,5 @@
 import React from 'react';
-import './CadastroEmpresa'
+import './CadastroEmpresa';
 
 
 
@@ -16,8 +16,9 @@ const CadastroEmpresa = () => {
 
     const CadastroEmpresa = (event) => {
         event.preventDefaut();
+        
 
-        fetch('http://localhost:3000/CadastroEmpresa/',{
+        fetch('http://localhost:3000/CadastroEmpresa/', {
             method: 'post',
             body: JSON.stringify({
                 nome: nomeRef.current.value,
@@ -27,20 +28,20 @@ const CadastroEmpresa = () => {
                 telefone: telefoneRef.current.value,
                 numero: numeroRef.current.value,
                 cep: cepRef.current.value,
-        }) 
+            })
         headers: {
-            'Content-Type': 'application/json'
-        }
-    }).then(value => {
-        return value.json()
-    }).then(value =>{
-        if(value.id) {
-            alert("")
-        }
-    })
+                'Content-Type': 'application/json'
+            }
+        }).then(value => {
+            return value.json()
+        }).then(value => {
+            if (value.id) {
+                alert("")
+            }
+        })
 
 
 
-}
+    }
 
-export default CadastroEmpresa;
+    export default CadastroEmpresa;
