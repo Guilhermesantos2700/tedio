@@ -5,7 +5,7 @@
 
     nav {
       position: fixed;
-      width: 100%;
+      width: 350px;
       height: 60px;
       background: blue;
       display: flex;
@@ -35,12 +35,12 @@
     }
     .menu {
       width: 100%;
-      height: 480px;
+      height: 100%;
       background: rgb(54, 52, 52);
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      transform: translatey(-600px);
+      transform: translateY(- 600px);
       border-top: none;
       transition: 0.4s;
       position: absolute;

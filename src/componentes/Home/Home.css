@@ -1,13 +1,10 @@
 body{
-    background-color:rgb(68, 60, 60);  
+    background-color:rgb(68, 60, 60);
+    width: 100%;
+      
 }
 
 
-img{
-    max-width: 100%;
-    
-    
-}
 
 .relacao{
     display: flex;
@@ -17,26 +14,25 @@ img{
      
 }
 footer {
-    max-width: 100% 100%;
+    width: 350px;
     display: flex;
     justify-content: space-around;
     background-color: blue;
 
 }
-
-
-
- 
-
-
 h1{
 
     font-size: 20px;
     color: white;
 }
+
+.Home img{
+    height: 100%;
+    width: 100%;
+}
+
 .relacao img{
-    max-width: 100%;
-    width: 90px;
+    width: 350px;
     border-radius: 45px;
     margin-left: 25px;
 

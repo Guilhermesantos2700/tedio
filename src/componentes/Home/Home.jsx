@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <div className="Home">
        
-        <img src={logo} alt="img-trabalho" />
+        <img src={logo} alt="img-trabalho"/>
         
         
       </div>
@@ -27,9 +27,8 @@ const Home = () => {
       </div>
       <footer>
         <img src={face} alt="facebook"/>
-        <img src={git} alt="github"/>
-        
-          <img src={gm} alt="gmail"/>
+        <img src={git} alt="github"/>        
+        <img src={gm} alt="gmail"/>
           
        
       </footer>
