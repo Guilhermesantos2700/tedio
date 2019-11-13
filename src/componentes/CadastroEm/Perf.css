@@ -1,4 +1,5 @@
 .Perf{
+    max-width: 100%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -7,6 +8,7 @@
   }
   
   .inform{
+    max-width: 100%;
     margin-top: -80px;
   margin-top: 30px;
     color: white;
