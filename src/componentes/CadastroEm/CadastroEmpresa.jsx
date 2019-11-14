@@ -8,11 +8,8 @@ import './CadastroEmpresa.css';
 const CadastroEmpresa = () => {
   return (
     <div className="CadastroEmpresa">
-      <div>
-        <h2>Cadastro Empresa</h2>
-      </div>
       <div className='barrinhas'>
-        
+        <h2>CADASTRO EMPRESA</h2>
         <input  type="nome da empresa" placeholder="Nome Da Empresa" />
         
         <input type="email" placeholder="E-mail" />
@@ -30,7 +27,7 @@ const CadastroEmpresa = () => {
         <input type="cep" placeholder="CEP" />
 
       </div>
-
+    
       <div id='trazB'>
         <Link to ='PerfilEmpresa'>
           <button>Cadastrar</button>

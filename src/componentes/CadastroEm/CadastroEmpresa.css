@@ -16,7 +16,7 @@ body {
 .CadastroEmpresa h2{
     text-align: center;
     font-size: 40px;
-    margin-top: 0px;
+    margin-top: px;
 }
 
 .barrinhas{
@@ -28,6 +28,11 @@ body {
     
     
 
+}
+.barrinhas h2 {
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
 }
 input{
     margin-bottom: 10px;
