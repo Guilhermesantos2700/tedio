@@ -3,6 +3,9 @@ body {
     background: rgb(97, 90, 87);
 }
 
+
+
+
 .CadastroEmpresa h1{
     text-align: center;
     font-size: 30px;
@@ -13,7 +16,7 @@ body {
 .CadastroEmpresa h2{
     text-align: center;
     font-size: 40px;
-    margin-top: 2px;
+    margin-top: 0px;
 }
 
 .barrinhas{

@@ -8,13 +8,13 @@ body{
 
 .relacao{
     display: flex;
-    max-width: 430px;
+    max-width: 450px;
     border-radius: 45px;
     
      
 }
 footer {
-    width: 350px;
+    width: 450px;
     display: flex;
     justify-content: space-around;
     background-color: blue;
@@ -27,12 +27,12 @@ h1{
 }
 
 .Home img{
-    height: 100%;
-   max-width: 430px;
+   height: 100%;
+   width: 450px;
 }
 
 .relacao img{
-    width: 350px;
+    width: 450px;
     border-radius: 45px;
     margin-left: 25px;
 
